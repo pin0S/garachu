@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <p>Placeholder for settings</p>
       </header>
-    </div>
+      <main>
+        <p>Weather: Temperature here for locale area</p>
+        <div>
+          <h1>Greetings from Garachu</h1>
+          <h3>What are you grateful for today?</h3>
+        </div>
+        <form class="gratefuls" action="" >
+          <input type="text" placeholder="I am grateful for ..."></input>
+          <input type="text" placeholder="I am grateful for ..."></input>
+          <input type="text" placeholder="I am grateful for ..."></input>
+        </form>
+        <div class="quotes">
+          <p>Inspiring Quote here - By inspiring person</p>
+        </div>
+      </main>
+    </>
   );
 }
 
